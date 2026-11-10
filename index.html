@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Vijay Motors | Pre-owned Cars in Hubli</title>
-  <meta name="description" content="Browse quality pre-owned cars at Vijay Motors, Unkal, Hubli.">
+  <meta name="description" content="Browse quality pre-owned cars at Vijay Motors, Hubli.">
   <meta property="og:title" content="Vijay Motors | Pre-owned Cars in Hubli">
   <meta property="og:type" content="website">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -516,7 +516,7 @@
     const L = s => ({ cng: 'CNG', sold_out: 'Sold Out' }[s] || (s ? s[0].toUpperCase() + s.slice(1) : ''));
     const FUELS = ['petrol', 'diesel', 'cng', 'electric', 'hybrid'], EXT = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' };
     const CATS = [['hatchback', 'Hatchback'], ['sedan', 'Sedan'], ['suv', 'SUV'], ['muv-mpv', 'MUV / MPV'], ['ev', 'Electric Vehicles (EV)'], ['luxury', 'Luxury Cars'], ['other', 'Other']].map(([slug, label]) => ({ slug, label }));
-    const SET = { business_name: 'Vijay Motors', tagline: 'We deliver trust, not just Car', phone: '+91 6366343367', whatsapp_number: '916366343367', address: 'Opposite Darga, Bhairidevarkoppa, Unkal, Hubli - 580031, Karnataka', maps_url: null, instagram_url: 'https://www.instagram.com/vijay_motors_hubli_?mdxt=b3Z3aXdvZDNtaTE1', youtube_url: 'https://youtube.com/@vijaymotorshubli6871?si=kx0N23jVkbg5tQME', services: ['Buying & Selling', 'Exchange', 'Finance & Loan Facility', 'Insurance Assistance', 'Clear Documents'], show_sold_cars: true };
+    const SET = { business_name: 'Vijay Motors', tagline: 'We deliver trust, not just Car', phone: '+91 6366343367', whatsapp_number: '916366343367', address: 'Opp,Bhairidevarkoppa Darga PB Road hubli 580024  Karnataka', maps_url: null, instagram_url: 'https://www.instagram.com/vijay_motors_hubli_?mdxt=b3Z3aXdvZDNtaTE1', youtube_url: 'https://youtube.com/@vijaymotorshubli6871?si=kx0N23jVkbg5tQME', services: ['Buying & Selling', 'Exchange', 'Finance & Loan Facility', 'Insurance Assistance', 'Clear Documents'], show_sold_cars: true };
     const S = { cars: [], cats: [], set: SET, loading: true, err: null, f: { q: '', cat: 'all', min: '', max: '', year: '', fuel: '', tr: '', km: '', av: 'available', sort: 'new' }, admin: null, editing: null, aq: '', as: '', ap: 0, im: [], old: [] };
     const catLabel = s => (S.cats.find(c => c.slug === s) || {}).label || s;
     const pub = p => sb.storage.from('car-images').getPublicUrl(p).data.publicUrl;
